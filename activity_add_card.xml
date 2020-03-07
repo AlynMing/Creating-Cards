@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity">
+
+    <EditText
+        android:id="@+id/flashcard_question"
+        android:layout_width="252dp"
+        android:layout_height="124dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="25dp"
+        android:autoSizeTextType="uniform"
+        android:autoText="false"
+        android:ems="10"
+        android:hint="question"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <EditText
+        android:id="@+id/answer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="177dp"
+        android:ems="10"
+        android:hint="option 1"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="174dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/answer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="266dp"
+        android:ems="10"
+        android:hint="option 2"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="244dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/answer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="356dp"
+        android:ems="10"
+        android:hint="option 3"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="315dp"
+        android:autofillHints="" />
+
+    <ImageButton
+        android:id="@+id/save_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="95dp"
+        app:srcCompat="@drawable/save_icon" />
+
+    <ImageButton
+        android:id="@+id/x_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="92dp"
+        app:srcCompat="@drawable/x_icon"
+        android:contentDescription="TODO" />
+</RelativeLayout>
